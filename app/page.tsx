@@ -9,7 +9,7 @@ export default function Home() {
         <video loop autoPlay playsInline muted>
           <source src="vid.mp4" type="video/mp4" />
         </video>
-        <audio autoPlay loop hidden playsInline controls>
+        <audio autoPlay loop hidden>
           <source src="music.mp3" type="audio/mpeg" />
         </audio>
       </div>
