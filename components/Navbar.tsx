@@ -8,13 +8,15 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
+
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex w-full md:px-20 py-4 px-10">
-      <div className="w-full flex gap-x-2 md:gap-x-6 justify-start  items-center">
+    <nav className="flex w-full px-10 py-4 md:px-20">
+      <div className="flex items-center justify-start w-full gap-x-2 md:gap-x-6">
         <div className="md:text-[60px] text-[44px]">🤸</div>
         <h1 className="font-bold hidden md:flex text-[40px] ">Beshy.Co</h1>
       </div>
