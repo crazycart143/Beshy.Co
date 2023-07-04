@@ -21,13 +21,19 @@ const Navbar = () => {
         <h1 className="font-bold hidden md:flex text-[40px] ">Beshy.Co</h1>
       </div>
       <div className="flex w-full  py-4 text-[20px] justify-end items-center gap-x-4 lg:gap-x-10">
-        <Link className="hidden lg:flex" href="/">
+        <Link className="hidden lg:flex" href="https://github.com/crazycart143">
           Github
         </Link>
-        <Link className="hidden lg:flex" href="/">
+        <Link
+          className="hidden lg:flex"
+          href="https://www.facebook.com/keanujohn.lariosa.1/"
+        >
           Facebook
         </Link>
-        <Link className="hidden lg:flex" href="/">
+        <Link
+          className="hidden lg:flex"
+          href="https://keanujohnlariosa.vercel.app/"
+        >
           Portfolio
         </Link>
         {theme === "light" ? (
